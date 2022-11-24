@@ -6,7 +6,7 @@ const MiddleTop = () => {
       id: "1",
       image: (
         <img
-          src={require("../imagesT/download.jpg")}
+          src={require("../images/download.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -17,7 +17,7 @@ const MiddleTop = () => {
       id: "2",
       image: (
         <img
-          src={require("../imagesT/messi.jpg")}
+          src={require("../images/messi.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -28,7 +28,7 @@ const MiddleTop = () => {
       id: "3",
       image: (
         <img
-          src={require("../imagesT/messi1.jpg")}
+          src={require("../images/messi1.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -51,7 +51,7 @@ console.log("clicked");
       id: "1",
       image: (
         <img
-          src={require("../imagesT/benzama.jpg")}
+          src={require("../images/benzama.jpg")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -62,7 +62,7 @@ console.log("clicked");
       id: "2",
       image: (
         <img
-          src={require("../imagesT/pele.jpg")}
+          src={require("../images/pele.jpg")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -73,7 +73,7 @@ console.log("clicked");
       id: "3",
       image: (
         <img
-          src={require("../imagesT/ronaldo.jfif")}
+          src={require("../images/ronaldo.jfif")}
           alt="nolodead"
           style={{ height: "6vh", width: " 7vw", display:"inline" }}
         />
@@ -84,7 +84,7 @@ console.log("clicked");
       id: "3",
       image: (
         <img
-          src={require("../imagesT/ronaldo.jfif")}
+          src={require("../images/ronaldo.jfif")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -95,7 +95,7 @@ console.log("clicked");
       id: "3",
       image: (
         <img
-          src={require("../imagesT/img3.jfif")}
+          src={require("../images/img3.jfif")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -107,7 +107,7 @@ console.log("clicked");
       id: "3",
       image: (
         <img
-          src={require("../imagesT/ronaldo2.jfif")}
+          src={require("../images/ronaldo2.jfif")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />

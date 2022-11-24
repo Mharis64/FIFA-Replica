@@ -145,12 +145,7 @@ const Middlebottom = () => {
 
 
 
-              {/* <p> {m.image} {m.data}</p> */}
-              
-
-               {/* <button className="btn btn-primary" onClick={()=>handledelete()}>
-                button
-              </button>   */}
+             
             </div>
           </div>
         ))}

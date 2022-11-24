@@ -6,7 +6,7 @@ const Aside = () => {
       id: "1",
       image: (
         <img
-          src={require("../imagesT/download.jpg")}
+          src={require("../images/download.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -17,7 +17,7 @@ const Aside = () => {
       id: "2",
       image: (
         <img
-          src={require("../imagesT/messi.jpg")}
+          src={require("../images/messi.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -28,7 +28,7 @@ const Aside = () => {
       id: "3",
       image: (
         <img
-          src={require("../imagesT/messi1.jpg")}
+          src={require("../images/messi1.jpg")}
           alt="nolodead"
           style={{ height: "30vh", width: " 15vw" }}
         />
@@ -53,7 +53,7 @@ console.log("clicked");
       id: "1",
       image: (
         <img
-          src={require("../imagesT/benzama.jpg")}
+          src={require("../images/benzama.jpg")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -64,7 +64,7 @@ console.log("clicked");
       id: "2",
       image: (
         <img
-          src={require("../imagesT/pele.jpg")}
+          src={require("../images/pele.jpg")}
           alt="nolodead"
           style={{ height: "10vh", width: " 15vw" }}
         />
@@ -75,7 +75,7 @@ console.log("clicked");
       id: "3",
       image: (
         <img
-          src={require("../imagesT/ronaldo.jfif")}
+          src={require("../images/ronaldo.jfif")}
           alt="nolodead"
           style={{ height: "6vh", width: " 7vw", display:"inline" }}
         />
