@@ -1,24 +1,14 @@
 
-    .tournament{
+    #bar:hover .tournament{
        
-    
-        color:blue;
-    }
-    
-    .tournament1{
-        
-    
-        color:blue;
-    }
-    
-    
-    .tournament11{
-        
-    
+    display: inline;
         color:blue;
     }
     
    
-    #bar{
-        color: blue;
+    #bar  .tournament{
+        
+    
+        color:blue;
     }
+    
