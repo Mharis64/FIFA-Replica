@@ -1,11 +1,59 @@
-<mxfile host="app.diagrams.net" modified="2023-10-14T16:14:58.828Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="agOPvvgdN_HY_wM7fkUj" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-14T17:31:27.495Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="evfpjHlCmXAv1AF5xfw9" version="22.0.4" type="github">
   <diagram name="Page-1" id="Z061bGCCcWYPLwHDPyYa">
-    <mxGraphModel dx="748" dy="446" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="748" dy="1546" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IgeTMz5pLYryEFSGnohZ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-1" value="Select Event" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-3" value="" style="ellipse;fillColor=strokeColor;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-4" value="start" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-6" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="IgeTMz5pLYryEFSGnohZ-3" target="IgeTMz5pLYryEFSGnohZ-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="260" as="sourcePoint" />
+            <mxPoint x="180" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-24" value="enquiry&amp;nbsp;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="140" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-26" value="do/check venue availability" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IgeTMz5pLYryEFSGnohZ-24">
+          <mxGeometry y="30" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-28" value="venue open for reservation" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="150" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-29" value="do/file reservation request" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IgeTMz5pLYryEFSGnohZ-28">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.014;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="IgeTMz5pLYryEFSGnohZ-26" target="IgeTMz5pLYryEFSGnohZ-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-36" value="venue available" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="240" y="130" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-30" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-410" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-39" value="Select timing" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-40" value="do/schedule start and end timings" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IgeTMz5pLYryEFSGnohZ-39">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IgeTMz5pLYryEFSGnohZ-29" target="IgeTMz5pLYryEFSGnohZ-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-45" value="Event Type" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="425" y="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="IgeTMz5pLYryEFSGnohZ-46" value="do/select event type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="IgeTMz5pLYryEFSGnohZ-45">
+          <mxGeometry y="40" width="140" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
